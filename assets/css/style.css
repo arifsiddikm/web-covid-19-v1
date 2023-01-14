@@ -1,0 +1,345 @@
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: roboto;
+} 
+
+a {
+    color: #6078ea;
+} 
+
+/* Button Styles */
+.btn-trans-white {
+    border: 2px solid white;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    font-family: quicksand !important;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 7px 16px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-trans-white:hover {
+    background: white;
+    color: #555;
+    border: 2px solid white;
+    transition-duration: 400ms;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold !important;
+}
+.font-montserrat {
+    font-family: montserrat !important;
+}
+.font-montserrat-bold {
+    font-family: montserrat-bold !important;
+}
+
+.btn-trans-green {
+    border: 2px solid rgb(11, 204, 11);
+    border-radius: 50px;
+    background: none;
+    color: rgb(11, 204, 11);
+    font-family: quicksand !important;
+    font-size: 17px;
+    padding: 7px 16px;
+    font-weight: bold;
+}
+
+.btn-trans-green:hover {
+    background: rgb(11, 204, 11);
+    color: #fff;
+    border: 2px solid rgb(11, 204, 11);
+    transition-duration: 400ms;
+}
+
+.btn-trans-blue {
+    border: 2px solid #6078ea;
+    border-radius: 50px;
+    background: none;
+    color: #6078ea;
+    font-family: quicksand !important;
+    font-size: 17px;
+    padding: 7px 16px;
+    font-weight: bold;
+}
+
+.btn-trans-blue:hover {;
+    background: #6078ea;
+    color: #fff;
+    border: 2px solid #6078ea;
+    transition-duration: 400ms;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+/* Table Custom */
+.thead-blue {
+    background: #6078ea;
+    color: white;
+}
+/* Text */
+.text-blue {
+    color: #389dce;
+}
+/* Carousel */
+.owl-carousel .item {
+    width: 100%;
+}
+
+/* Start Navbar Style */
+.navbar {
+    background: none;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: roboto;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: quicksand;
+    padding-left: 10px !important;
+    margin-right: 10px;
+}
+.dropdown-menu {
+    border-radius: 0px !important;
+    margin-right: 10px;
+}
+.dropdown-item:hover {
+    background:#00d450 !important;
+    color:white;
+    transition-duration: 0.2s;
+}
+.dropdown-item {
+    padding-left: 15px;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+.nav-link:hover {
+    transition-duration: 200ms;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    color: #f38181 !important;
+}
+.nav-link:focus {
+    color: #f38181 !important;
+}
+
+.title-welcome {
+    font-family: quicksand;
+    font-weight: 500;
+    color: white !important;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.title-logo {
+    width: 80px;
+    transition-duration: 500ms;
+}
+
+.jumbotron-color {
+    background: linear-gradient(to right, #17ead8, #6078ea);
+    padding: 35px 0;
+    margin: 40px 0;
+    color: white;
+}
+.title-row {
+    font-family: poppins;
+}
+.carousel {
+    background: #FAFAFA;
+}
+
+.carousel-cell {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.carousel-cell img {
+    width: 100%;
+}
+
+.carousel-mitra img {
+    width: 85% !important;
+}
+
+.sosmed-ig {
+    background: linear-gradient(130deg, #515bd4, #8134af, #dd2a7b) !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.sosmed-yt {
+    background: #D32F2F !important;
+}
+.sosmed-wa {
+    background: #4fce5d !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+} 
+.sosmed-tele {
+    background: #0088cc !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.copyright {
+    background: url('assets/image/footer.png');
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.icon-link {
+    margin-right: 20px;
+    font-size: 2rem;
+    color: #bcbcbc;
+}
+.icon-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+@media screen and (max-width: 720px) {
+    .nav-link {
+        color:black !important;
+    }
+    .nav-item {
+        margin-right:-10px;
+    }
+    h1.title-welcome {
+        padding: 20px;
+        font-size: 45px;
+        color: white !important;
+    }
+
+    .title-logo {
+        width: 65px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .navbar-nav .nav-item {
+        color: #444 !important;
+    }
+
+    .img-jur-tkj {
+        width: 50%;
+    }
+
+    .img-jur-mm {
+        width: 70%;
+    }
+
+    .img-jur-ak {
+        width: 60%;
+    }
+
+    .img-jur-otkp {
+        width: 70%;
+    }
+
+    .carousel-mitra img {
+        width: 80% !important;
+    }
+
+    .berita .col-berita {
+        border-radius: 10px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .berita .gambar_berita {
+        width: 30%;
+        height: 90px !important;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .berita .col-berita:hover {
+        transform: none;
+    }
+
+    .berita .link-berita {
+        font-size: 18px;
+    }
+
+    .berita .isi-berita {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-link {
+        color:black !important;
+    }
+    .nav-item {
+        margin-right:-10px;
+    }
+    h1.title-welcome {
+        padding: 20px;
+        font-size: 45px;
+        color: white !important;
+    }
+
+    .title-logo {
+        width: 65px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+        background: white;
+    }
+
+    .navbar-nav .nav-item {
+        color: #444 !important;
+    }
+
+    .img-jur-tkj {
+        width: 50%;
+    }
+
+    .img-jur-mm {
+        width: 70%;
+    }
+
+    .img-jur-ak {
+        width: 60%;
+    }
+
+    .img-jur-otkp {
+        width: 70%;
+    }
+
+    .carousel-mitra img {
+        width: 80% !important;
+    }
+
+    .berita .col-berita {
+        border-radius: 10px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .berita .gambar_berita {
+        width: 30%;
+        height: 90px !important;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .berita .col-berita:hover {
+        transform: none;
+    }
+
+    .berita .link-berita {
+        font-size: 18px;
+    }
+
+    .berita .isi-berita {
+        display: none;
+    }
+}
